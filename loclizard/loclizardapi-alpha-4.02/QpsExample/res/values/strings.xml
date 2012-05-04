@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2011 Qubulus AB
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+
+    <!-- QpsExample -->
+    <string name="app_name">QpsExample</string>
+    
+	<string name="site_id_button">Update site id</string>
+    <string name="site_id_hint">site id</string>
+
+    <!-- Qps settings (if RemotePositioningService is used) -->
+    <string name="qps_customer_id">YOUR-CUSTOMER-ID</string>
+    <string name="qps_site_id">YOUR-DEFAULT-SITE-ID</string>
+    <string name="qps_server">api-dev.loclizard.com:8080</string>
+    <string name="qps_switch_floor_queue_size">3</string>
+	<string name="qps_switch_floor_queue_time_tollerance">30</string>
+
+    <!-- Wifi notification title/content labels (optional) -->
+    <string name="qps_wifi_notification_title">Unable to get your position</string>
+    <string name="qps_wifi_notification_content">Positioning requires Wi-Fi, tap to enable it</string>
+
+    <!-- GSM notification title/content labels (optional) -->
+    <string name="qps_gsm_notification_title">Improve the positioning accuracy</string>
+    <string name="qps_gsm_notification_content">Select \"GSM only\" in \"Network mode\"</string>
+    
+    <!-- Qps debug/mock features (if DummyPositioningService is used) -->
+    <string name="dummy_map0">1</string>
+    <string name="dummy_lat0">55.611501</string>
+    <string name="dummy_lon0">13.010363</string>
+    <string name="dummy_map1">2</string>
+    <string name="dummy_lat1">55.611695</string>
+    <string name="dummy_lon1">13.010420</string>
+    <string name="dummy_delay">1000</string>
+
+</resources>

@@ -11,6 +11,11 @@ Abstract
 Introduction
 ============
 
+Research
+========
+
+  See the [research](research) directory for research and reference materials
+
 Hypothesis
 ==========
 
@@ -31,3 +36,4 @@ Discussion
 
 Conclusion
 ==========
+
